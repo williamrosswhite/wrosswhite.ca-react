@@ -12,18 +12,19 @@ class Developer extends React.Component {
     render() {
         return (
             <div className="container-fluid p-0" >
-                <Header changeCareerHandler={this.props.changeCareerHandler} />
-                <About />
-                <hr className="m-0"></hr>
-                <Experience />
-                <hr className="m-0"></hr>
-                <Education />
-                <hr className="m-0"></hr>
-                <Skills />
-                <hr className="m-0"></hr>
-                <Interests />
-                <hr className="m-0"></hr>
-                <Awards />
+                    <div></div>
+                        <Header changeCareerHandler={this.props.changeCareerHandler} />
+                        <About />
+                        <hr className="m-0"></hr>
+                        <Experience />
+                        <hr className="m-0"></hr>
+                        <Education />
+                        <hr className="m-0"></hr>
+                        <Skills />
+                        <hr className="m-0"></hr>
+                        <Interests />
+                        <hr className="m-0"></hr>
+                        <Awards />
                 }
             </div>
         );
