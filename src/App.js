@@ -24,14 +24,13 @@ class App extends React.Component {
     }
 
     render() {
+        console.log("renderer value: " + this.state.developer)
         return (
             <div id="page-top">
-                <Developer 
-                    changeCareerHandler={this.state.changeCareerHandler}
-                    developer={this.state.developer} />
-                <Writer 
-                    changeCareerHandler={this.changeCareerHandler}
-                    developer={this.state.developer} />
+                {(this.state.developer) ? 
+                <Developer changeCareerHandler={this.state.changeCareerHandler} /> :
+                <Writer changeCareerHandler={this.changeCareerHandler} />
+                }
             </div>
         );
     }

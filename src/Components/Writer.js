@@ -13,23 +13,18 @@ class Writer extends React.Component {
         console.log("writer attempted: " + this.props.developer)
         return (
             <div className="container-fluid p-0" >
-                {(!this.props.developer) ?
-                    <div>
-                        <Header changeCareerHandler={this.props.changeCareerHandler} />
-                        <About />
-                        <hr className="m-0"></hr>
-                        <Experience />
-                        <hr className="m-0"></hr>
-                        <Education />
-                        <hr className="m-0"></hr>
-                        <Skills />
-                        <hr className="m-0"></hr>
-                        <Interests />
-                        <hr className="m-0"></hr>
-                        <Awards />
-                    </div> :
-                    <div></div>
-                }
+                <Header changeCareerHandler={this.props.changeCareerHandler} />
+                <About />
+                <hr className="m-0"></hr>
+                <Experience />
+                <hr className="m-0"></hr>
+                <Education />
+                <hr className="m-0"></hr>
+                <Skills />
+                <hr className="m-0"></hr>
+                <Interests />
+                <hr className="m-0"></hr>
+                <Awards />
             </div>
         );
     }
