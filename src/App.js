@@ -13,23 +13,22 @@ class App extends React.Component {
     }
 
     changeCareerHandler() {
-        this.setState(prevState => {
-            if (prevState.developer === false) {
-                prevState.developer = true;
-            } else {
-                prevState.developer = false;
-            }
-            console.log("developer value: " + prevState.developer)
-        })
+        if (this.state.developer) {
+            this.setState({ developer: false });
+        }
+        else {
+            this.setState({ developer: true });
+        }
+        console.log("handler value: " + this.state.developer)
     }
 
     render() {
         console.log("renderer value: " + this.state.developer)
         return (
             <div id="page-top">
-                {(this.state.developer) ? 
-                <Developer changeCareerHandler={this.state.changeCareerHandler} /> :
-                <Writer changeCareerHandler={this.changeCareerHandler} />
+                {(this.state.developer) ?
+                    <Developer changeCareerHandler={this.changeCareerHandler} /> :
+                    <Writer changeCareerHandler={this.changeCareerHandler} />
                 }
             </div>
         );
