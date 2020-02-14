@@ -18,6 +18,12 @@ class Writer extends React.Component {
                 <Experience />
                 <hr className="m-0"></hr>
                 <Education />
+                <hr className="m-0"></hr>
+                <Skills />
+                <hr className="m-0"></hr>
+                <Interests />
+                <hr className="m-0"></hr>
+                <Awards />
             </div>
         );
     }
