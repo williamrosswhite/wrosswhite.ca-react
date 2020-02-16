@@ -4,7 +4,7 @@ class Header extends React.Component {
     render() {
         return (
             <div>
-                <nav className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+                <nav style={{left: "auto"}} className="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
                     <a className="navbar-brand js-scroll-trigger" href="#page-top">
                         <span className="d-block d-lg-none">Clarence Taylor</span>
                         <span className="d-none d-lg-block">
