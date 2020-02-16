@@ -10,12 +10,9 @@ import Awards from "./DeveloperComponents/Awards"
 class Developer extends React.Component {
 
     render() {
-        let x = this.props.developer;
-        console.log("writer attempted:" + x)
         return (
             <div className="container-fluid p-0" >
-                {(this.props.developer) ?
-                    <div>
+                    <div></div>
                         <Header changeCareerHandler={this.props.changeCareerHandler} />
                         <About />
                         <hr className="m-0"></hr>
@@ -28,8 +25,6 @@ class Developer extends React.Component {
                         <Interests />
                         <hr className="m-0"></hr>
                         <Awards />
-                    </div> :
-                    <div></div>
                 }
             </div>
         );
