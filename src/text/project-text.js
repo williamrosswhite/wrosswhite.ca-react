@@ -62,7 +62,7 @@ const projectData = [
     {
         id: 6,
         "name": "F.I.O.N.A. (File and Information Online Network Access)",
-        "year": 2020,
+        "year": 2019,
         "tech": "C# | Visual Studio | SQL Server",
         "descOne": "Led team of 3 to develop a user friendly ‘FileZilla my mother could use’ with server and client classes",
         "deploy": "",
@@ -72,7 +72,7 @@ const projectData = [
     {
         id: 7,
         "name": "Game of Life",
-        "year": 2020,
+        "year": 2018,
         "tech": "Java | OOP | Eclipse",
         "descOne": "Java OOP Project to simulate carnivore/omnivore/herbivore/plant interaction ",
         "descTwo": "",

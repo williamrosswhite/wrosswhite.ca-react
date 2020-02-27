@@ -54,7 +54,16 @@
         "three": "I am now looking for industry work. I’ve discovered that I have three core areas of interest.  The first is full stack web development. This is what I gravitate towards when developing personal projects at home. It’s more web technologies I’m motivated to learn independently now that school is over. I love JavaScript, I like building Node.js projects, and I’m exploring React and REST to broaden that skill set and after that I’ll be looking at Docker and python. I’m into both front end and back end. I love making cool things work in the browser and being able to show my friends real quick, and I also love being deep in the backend, interfacing with APIs, handling requests, and sending the right information back in the right way.",
         "four": "But I’m also interested in the .Net Framework and working with C# and Visual Studio to build windows applications. I was doing a lot of manual naming when sorting pictures recently and mild frustration was enough for me to quickly whip up a Windows renaming application. I love that I can do that now, it’s quite empowering. I like Object Oriented Programming and I’d love to get my teeth into larger .Net projects and work on new modules for existing systems or help start a new complex system from the beginning.",
         "five": "I am also interested in robotics and lower level programming. When I took my C++ class I remember really enjoying the language. I liked that you had access to lower level things like pointers but could also do higher level things like classes. It felt informal and put together by necessity along the way in a way which I also appreciate about JavaScript. I love the idea of working on space technologies, robots, and autonomous systems, but high low level skills are required here. I have the ability to become really good at these things, and I know I would enjoy it, but my work experience has not yet bent that way.",
-        "six": "If you are a prospective employer checking me out, greetings! Feel free to look around! Although you've probably seen them already, please see below my cover letter and resume."
+        "six": "If you are a prospective employer checking me out, greetings! Feel free to look around! Although you've probably seen them already, please see below my cover letter and resume.",
+        "languages": {
+            "java": "Java",
+            "dotnet": "C# / .NET Framework",
+            "c": "C / C++",
+            "js": "JavaScript",
+            "go": "GO",
+            "gql": "GraphqQL",
+            "sql": "SQL / noSQL / Gorm"
+        }
     },
     "projects": {
         "cryptotracko": {
