@@ -10,7 +10,8 @@ class Navigation extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            expanded: false
+            expanded: false,
+            mql: window.matchMedia('(max-width: 600px)')
         };
         this.toggleExpanded = this.toggleExpanded.bind(this);
         this.collapseNav = this.collapseNav.bind(this);
@@ -28,10 +29,10 @@ class Navigation extends React.Component {
 
     render() {
         return (
-            <Navbar expanded={this.state.expanded} className="sticky-top navbar navbar-expand-lg navbar-dark bg-primary" id="sideNav" collapseOnSelect expand="lg" bg="dark" variant="dark">
-                <Navbar.Brand href="#page-top" onClick={this.collapseNav}>{text.other.name}</Navbar.Brand>
+            <Navbar expanded={this.state.mql.matches?this.state.expanded:true} className="sticky-top navbar navbar-expand-lg navbar-dark bg-primary" id="sideNav" collapseOnSelect expand="lg" bg="dark" variant="dark">
+                <Navbar.Brand href="#page-top" onClick={this.collapseNav}>{this.state.mql.matches?text.other.name:""}</Navbar.Brand>
                 <Navbar.Toggle onClick={() => this.toggleExpanded() } aria-controls="responsive-navbar-nav" />
-                <a className="navbar-brand js-scroll-trigger" href="#about" id="nav-image">
+                <a className="mt-0 navbar-brand js-scroll-trigger" href="#about" id="nav-image">
                     <span className="d-none d-lg-block">
                         <img className="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt=""></img>
                     </span>
@@ -50,9 +51,6 @@ class Navigation extends React.Component {
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link js-scroll-trigger" href="#projects" onClick={this.toggleExpanded}>{text.headers.projects}</a>
-                            </li>
-                            <li className="nav-item">
-                                <a className="nav-link js-scroll-trigger" href="#interests" onClick={this.toggleExpanded}>{text.headers.interests}</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link js-scroll-trigger" href="#extras" onClick={this.toggleExpanded}>{text.headers.extras}</a>

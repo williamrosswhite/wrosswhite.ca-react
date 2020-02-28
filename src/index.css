@@ -97,6 +97,9 @@ p.lead {
 }
 
 @media (min-width: 992px) {
+    .ml-5 {
+        margin-left: 0% !important;
+    }
     #sideNav {
         text-align: center;
         position: fixed;

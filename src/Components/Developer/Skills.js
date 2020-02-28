@@ -11,7 +11,34 @@ class Skills extends React.Component {
                     <div className="w-100">
                         <h2 className="mb-5 spacer text-primary">{text.headers.skills}</h2>
 
+                        <hr className="m-5"></hr>
+
+                        {/* Ross this should all be interpolated */}
+
                         <div className="subheading mb-3">{text.skills.skills}</div>
+                        <ul className="fa-ul mb-4 mr-5">
+                            <li>
+                                <i className="ml-5 fa-li fa fa-check skillCheck"></i>
+                                {text.skills.languages.js}</li>
+                            <li>
+                                <i className="ml-5 fa-li fa fa-check"></i>
+                                {text.skills.languages.dotnet}</li>
+                            <li>
+                                <i className="ml-5 fa-li fa fa-check"></i>
+                                {text.skills.languages.sql}</li>
+                            <li>
+                                <i className="ml-5 fa-li fa fa-check"></i>
+                                {text.skills.languages.java}</li>
+                            <li>
+                                <i className="ml-5 fa-li fa fa-check"></i>
+                                {text.skills.languages.c}</li>
+                            <li>
+                                <i className="ml-5 fa-li fa fa-check"></i>
+                                {text.skills.languages.go}</li>
+                            <li>
+                                <i className="ml-5 fa-li fa fa-check"></i>
+                                {text.skills.languages.gql}</li>
+                        </ul>
                         <ul className="list-inline dev-icons">
                             <li className="list-inline-item">
                                 <i className="fab fa-html5"></i>
@@ -20,22 +47,13 @@ class Skills extends React.Component {
                                 <i className="fab fa-css3-alt"></i>
                             </li>
                             <li className="list-inline-item">
-                                <i className="fab fa-js-square"></i>
-                            </li>
-                            <li className="list-inline-item">
                                 <i className="fab fa-react"></i>
-                            </li>
-                            <li className="list-inline-item">
-                                <i className="fab fa-node-js"></i>
                             </li>
                             <li className="list-inline-item">
                                 <i className="fab fa-npm"></i>
                             </li>
                             <li className="list-inline-item">
                                 <i className="fab fa-github"></i>
-                            </li>
-                            <li className="list-inline-item">
-                                <i className="fab fa-java"></i>
                             </li>
                         </ul>
 

@@ -11,7 +11,7 @@ class Projects extends React.Component {
 
         return (
             <div className="container-fluid p-0">
-                <section className="resume-section p-3 p-lg-5 d-flex justify-content-center" id="projects">
+                <section className="resume-section p-3 p-lg-5 d-flex justify-content-left" id="projects">
                     <div className="w-100">
                         <h2 className="mb-0 spacer text-primary">{text.headers.projects}</h2>
                         {proj}

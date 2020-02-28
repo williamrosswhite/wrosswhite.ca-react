@@ -4,6 +4,13 @@ import text from '../../text/strings.json'
 
 class About extends React.Component {
 
+    constructor(props) {
+        super(props);
+        this.state = {
+            mql: window.matchMedia('(max-width: 992px)')
+        };
+    }
+
     render() {
         return (
             <div className="container-fluid p-0">
@@ -12,16 +19,17 @@ class About extends React.Component {
                         <h1 className="mb-0">{text.about.first}
                             <span className="text-primary"> {text.about.last}</span>
                         </h1>
-                        <img style={{ width: '75%', display: 'block' }} className="img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt=""></img>
+                        <img style={{ width: '75%', display: 'block' }} className="d-lg-none img-fluid img-profile rounded-circle mx-auto mb-2" src="img/profile.jpg" alt=""></img>
                         <div className="subheading mb-5">{text.about.city}<br></br>{text.about.phone}<br></br>
                             <a href="mailto:wrosswhite@gmail.com">{text.about.email}</a>
                         </div>
+                        <hr className="m-5"></hr>
                         <p>{text.about.zero}</p>
-                        <hr></hr>
+                        <hr className="m-5"></hr>
                         <p>{text.about.one}</p>
-                        <hr></hr>
+                        <hr className="m-5"></hr>
                         <p>{text.about.two}</p>
-                        <div className="social-icons">
+                        <div className="social-icons mt-5">
                             <a href="https://www.linkedin.com/in/wrosswhite/">
                                 <i className="fab fa-linkedin"></i>
                             </a>
