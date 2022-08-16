@@ -4,6 +4,7 @@
     },
     "headers": {
         "about": "About",
+        "experience": "Experience",
         "education": "Education",
         "skills": "Skills",
         "projects": "Projects",
@@ -12,8 +13,8 @@
         "social": "Social"
     },
     "about": {
-        "zero": "Welcome to the online home of W. Ross White. I am recent graduate of the Computer Systems Technology (CST) program Technical Programming option at the British Columbia Institute of technology (BCIT) in Burnaby, BC.  This is an older site now (it's amazing how much you can learn in a semester), so it's just some basic bootstrap styling and front end javascript, but previously I still had a squarespace website from when I was pushing my science fiction novels.",
-        "one": "The more web development experience I got, the more emabrassing this was :p  So this is a fine, full, basic website, but I'm currently teaching myself React, so I think when I get around to it I'm going to select a more elegant look for the site, and implement it with React. But right now I'm still focusing on learning React and continuing to work on my main Node.js project.",
+        "zero": "Welcome to the online home of W. Ross White. I am a graduate of the Computer Systems Technology (CST) program Technical Programming option at the British Columbia Institute of technology (BCIT) in Burnaby, BC.  Today, I work at AlayaCare, a health care Software As A Service company focused on developing management systems for residential care facilities.  We are driven to enable the care we want our loved ones to receive in the place they call home.  Most recently I have been leading development on a feature which stops billing once a resident's fee cap limits have been reached.",
+        "one": "The more development experience I get, the more I realize how much I still have to learn, but I welcome the challenge.  The more tools I add to my toolbox, the more I can do!  At AlayaCare I work with C# and AngularJS, and I have found that I really enjoy full stack web development, and look forward to learning new technologies as I progress in my career.",
         "two": "Thank you for visiting, I encourage you to poke around and check back again soon!",
         "first": "Ross",
         "last": "White",
@@ -21,22 +22,24 @@
         "phone": "(604) 404-0002",
         "email": "wrosswhite@gmail.com"
     },
-    "education": [{
-        "ubc": {
-            "id": 0,
-            "name": "University of British Columbia - Okanagan",
-            "degree": "Bachelor of Arts",
-            "focus": "Psychology Major / Philosophy Minor",
-            "date": "September 2010 - May 2012"
-        },
-        "bcit": {
-            "id": 1,
-            "name": "British Columbia Institute of Technology",
-            "degree": "Computer Systems Technology Diploma",
-            "focus": "Technical Programming Option",
-            "date": "January 2018 - December 2019"
+    "education": [
+        {
+            "ubc": {
+                "id": 0,
+                "name": "University of British Columbia - Okanagan",
+                "degree": "Bachelor of Arts",
+                "focus": "Psychology Major / Philosophy Minor",
+                "date": "September 2010 - May 2012"
+            },
+            "bcit": {
+                "id": 1,
+                "name": "British Columbia Institute of Technology",
+                "degree": "Computer Systems Technology Diploma",
+                "focus": "Technical Programming Option",
+                "date": "January 2018 - December 2019"
+            }
         }
-    }],
+    ],
     "skills": {
         "skills": "Languages, Tools, & Skills",
         "more": "More About Me",
@@ -47,31 +50,27 @@
         "oop": "Object Oriented Programming",
         "comms": "Stellar Communication Skills",
         "organized": "Meticulously Organized",
-        "collaborator": "Natural Collaborator & Leader",
-        "zero": "I'm so excited about what I’ve learned to do and I’m eager to get to it. There are so many things which I take for granted now which were so mysterious when I first got started. I’m excited about all there still is to learn, there are so many cool technologies out there!",
-        "one": "I wasn't sure when I applied to the CST program. I knew I was into computers, I’d built my own PC and such, and I’d long been quite curious about what went on under the hood. I had a compatible curiosity, but couldn't know ahead of time if I'd enjoy the work. Turns out I do!",
-        "two": "It was intimidating and frustrating being a total novice up against people who already knew so much in my first term, but by the end of the third term I genuinely felt like I was solidly catching up with my peers, not to mention all of those who didn't make it along the way. I am now quite proud to have made it all the way through, full course loads all along (no taking courses in the summer to lighten the load for me), no fails and when it was all said and done a solid 79 average. All told I’m pretty proud of my accomplishment. It took 12 hour days 6 days a week, a lot of hard work, a lot of luck, and a lot of help from friends along the way. Now I'm looking forward to my next challenges.",
-        "three": "I am now looking for industry work. I’ve discovered that I have three core areas of interest.  The first is full stack web development. This is what I gravitate towards when developing personal projects at home. It’s more web technologies I’m motivated to learn independently now that school is over. I love JavaScript, I like building Node.js projects, and I’m exploring React and REST to broaden that skill set and after that I’ll be looking at Docker and python. I’m into both front end and back end. I love making cool things work in the browser and being able to show my friends real quick, and I also love being deep in the backend, interfacing with APIs, handling requests, and sending the right information back in the right way.",
-        "four": "But I’m also interested in the .Net Framework and working with C# and Visual Studio to build windows applications. I was doing a lot of manual naming when sorting pictures recently and mild frustration was enough for me to quickly whip up a Windows renaming application. I love that I can do that now, it’s quite empowering. I like Object Oriented Programming and I’d love to get my teeth into larger .Net projects and work on new modules for existing systems or help start a new complex system from the beginning.",
-        "five": "I am also interested in robotics and lower level programming. When I took my C++ class I remember really enjoying the language. I liked that you had access to lower level things like pointers but could also do higher level things like classes. It felt informal and put together by necessity along the way in a way which I also appreciate about JavaScript. I love the idea of working on space technologies, robots, and autonomous systems, but high low level skills are required here. I have the ability to become really good at these things, and I know I would enjoy it, but my work experience has not yet bent that way.",
-        "six": "If you are a prospective employer checking me out, greetings! Feel free to look around! Although you've probably seen them already, please see below my cover letter and resume.",
+        "collaborator": "Excellent Collaborator",
+        "zero": "I've been very happy with where I landed my first job.  AlayaCare is a Montreal based company who hired me through their Victoria office.  I&rsquo;d basically given up the job search amidst the first pandemic lockdown when they messaged me out of the blue asking if I was still looking for work.  When they offered me a position I fell to the ground and laughed maniacally.",
+        "one": "I have loved and appreciated so much landing a full stack development position out of the gate; I was worried about getting locked into something more specific and letting my other skills atrophe.  It has really been the perfect first job, the company is large enough that I am well supported, but still small enough to be agile and need people to reach and work up and down our stack.  I was also very luck to land a job where I was able to apply my .NET training from my BCIT Technical Programming focus.  I have also been very happy to learn a front end framework really well, but I wish it was something more modern than AngularJS, and I'm looking forward to helping with our migration to Vue.js.  I've been fortunate to work with great people at AlayaCare from whom I&rsquo;ve learned so much.",
+        "two": "Looking towards the future, it would be great to work in a field I have a more active interest in than health care, as gratifying it is to work on something that helps vulnerable people be taken care of.  I love gaming, but I&rsquo;m pretty sure I don&rsquo;t want to work in game development.  Fields I would love to work in include blockchain technology, as a space nut I&rsquo;d also love to work on satellites somehow.  This passion extends to robotics more generally, and post pandemic I plan to participate in a local hobby robotics club.  The dream job would definitely be working on NASA spacecraft.  Also, as a .NET/C# enthusiast it would be amazing to work at the Microsoft's offices here in Vancouver someday.",
+        "three": "If you are a prospective employer checking me out, greetings! Feel free to look around! Although you've probably seen them already, please see below my cover letter and resume.",
         "languages": {
-            "java": "Java",
-            "dotnet": "C# / .NET Framework",
-            "c": "C / C++",
-            "js": "JavaScript",
-            "go": "GO",
-            "gql": "GraphqQL",
-            "sql": "SQL / noSQL / Gorm"
+            "languages": "C# / Typescript / Javascript / Yaml / Java",
+            "environments": ".NET Framework / NodeJS",
+            "database": "SQL / Entity Framework",
+            "framework": "AngularJS / React / Vue",
+            "version": "GitHub",
+            "services": "Docker / Azure" 
         }
     },
     "projects": {
-        "cryptotracko": {
-            "name": "CryptoTracko API",
+        "newhorizonmission": {
+            "name": "New Horizon Mission",
             "year": 2020,
-            "tech": "MVC | Go | GraphQL | Gorm | React | JavaScript | HTML | CSS",
-            "one": "In development – Responsible for backend development and implementation of Graphql using Go language",
-            "two": "repo: https://github.com/julianvargkim/cryptotracko_api"
+            "tech": "HTML | JavaScript | Firebase | CSS | Bootstrap",
+            "one": "This is just the site I created as my writing portfolio and general non professional landing page for myself.  The technology is not particularly modern, but I actively maintain it and am pleased with the retro aesthetic of it.",
+            "two": "repo: https://github.com/williamrosswhite/newhorizonmission-html"
         },
         "qds20": {
             "name": "ConEx - BCIT QDS20 Big Data Hackathon",
@@ -86,26 +85,26 @@
             "tech": "MVC | Node.js | JavaScript | MySQL | Pug | HTML | CSS",
             "one": "As a student I wanted something to help organize work priority based on when things are due, so I built it!",
             "two": "deployment: www.finalcountdown.xyz | repo: https://github.com/rwhite83/final-countdown"
-        },        
+        },
         "floral": {
             "name": "Floral Trauma",
             "year": 2019,
             "tech": "C# | Unity | PUN | Visual Studio | ASP.NET | Node.js | JavaScript",
             "one": "Project Lead on a 24-student game development project.  Organized teams / development sprints and built website",
             "two": "website deployment: http://floral-trauma-mmst.herokuapp.com/"
-        },       
+        },
         "disaster": {
             "name": "Disaster Pets",
             "year": 2019,
             "tech": "Firebase | JavaScript | NoSQL | HTML | CSS",
             "one": "Industry project involving registering pets left behind in disaster zones so emergency responders can rescue them",
             "two": "deployment: https://disaster-pets.firebaseapp.com/"
-        },        
+        },
         "fiona": {
             "name": "F.I.O.N.A. (File and Information Online Network Access",
             "year": 2020,
             "tech": "C# | Visual Studio | SQL Server",
-            "one": "Led team of 3 to develop a user friendly ‘FileZilla my mother could use’ with server and client classes",
+            "one": "Led team of 3 to develop a user friendly ‘FileZilla my mother could use&rsquo; with server and client classes",
             "two": "repo: https://github.com/rwhite83/CSharp-F.I.O.N.A"
         },
         "life": {

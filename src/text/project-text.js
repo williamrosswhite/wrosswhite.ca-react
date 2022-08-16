@@ -2,7 +2,7 @@ const projectData = [
     {
         id: 0,
         "name": "wrosswhite.ca",
-        "year": 2020,
+        "year": 2020 - Present,
         "tech": "React | Bootstrap | React Bootstrap | Javascript | HTML5 | CSS",
         "descOne": "The website you are currenty enjoying!  My previous website, seen here (link to old site) was a good demo of what I could do after term 3, but it was really just to replace my squarespace website.",
         "descTwo": "This is now my online portfolio, and I wanted to work with React to learn.  I really like react!  After working with Pug Interpolation, rendering components from an array of data is very satisfying.",
@@ -11,26 +11,36 @@ const projectData = [
     },
     {
         id: 1,
-        "name": "CryptoTracko API",
-        "year": 2020,
-        "tech": "MVC | Go | GraphQL | Gorm | React | JavaScript | HTML5 | CSS",
-        "descOne": "In development – Responsible for backend development and implementation of Graphql using Go language",
-        "deploy": "",
+        "name": "New Horizon Mission",
+        "year": 2020 - Present,
+        "tech": "HTML | JavaScript | Firebase | CSS | Bootstrap",
+        "descOne": "This is just the site I created as my writing portfolio and general non professional landing page for myself.  The technology is not particularly modern, but I actively maintain it and am pleased with the retro aesthetic of it.",
+        "deploy": "https://newhorizonmission.ca/",
         "descTwo": "",
-        "repo": "repo: https://github.com/julianvargkim/cryptotracko_api"
+        "repo": "repo: https://github.com/williamrosswhite/newhorizonmission-html"
     },
     {
         id: 2,
+        "name": "File Renamer 9000",
+        "year": 2020 - Present,
+        "tech": "C# | .NET Framework | Windows Forms",
+        "descOne": "A utility project I've worked on for my own purposes, mostly renaming image files the way I like them, but I keep adding functionality to it as I find myself wishing it did more.",
+        "descTwo": "",
+        "deploy": "deployment: https://github.com/williamrosswhite/fileRenamer9000",
+        "repo": ""
+    },
+    {
+        id: 3,
         "name": "ConEx - BCIT QDS20 Big Data Hackathon",
         "year": 2020,
         "tech": "MVC | Node.js | JavaScript | MySQL | Pug | HTML5 | CSS",
         "descOne": "Over 20 hours I built a full MVC Node.js project to automate convention attendee tracking and analytic",
         "descTwo": "",
-        "deploy": "deployment: https://qds-team5.herokuapp.com/ | repo: https://github.com/rwhite83/qds20-team5",
-        "repo": ""
+        "deploy": "deployment: https://qds-team5.herokuapp.com/",
+        "repo": "repo: https://github.com/rwhite83/qds20-team5"
     },
     {
-        id: 3,
+        id: 4,
         "name": "Final Countdown",
         "year": 2019,
         "tech": "MVC | Node.js | JavaScript | MySQL | Pug | HTML5 | CSS",
@@ -40,7 +50,7 @@ const projectData = [
         "repo": "repo: https://github.com/rwhite83/final-countdown"
     },
     {
-        id: 4,
+        id: 5,
         "name": "Floral Trauma",
         "year": 2019,
         "tech": "C# | Unity | PUN | Visual Studio | ASP.NET | Node.js | JavaScript",
@@ -50,7 +60,7 @@ const projectData = [
         "repo": ""
     },
     {
-        id: 5,
+        id: 6,
         "name": "Disaster Pets",
         "year": 2019,
         "tech": "Firebase | JavaScript | NoSQL | HTML5 | CSS",
@@ -60,17 +70,17 @@ const projectData = [
         "repo": ""
     },
     {
-        id: 6,
+        id: 7,
         "name": "F.I.O.N.A. (File and Information Online Network Access)",
         "year": 2019,
         "tech": "C# | Visual Studio | SQL Server",
-        "descOne": "Led team of 3 to develop a user friendly ‘FileZilla my mother could use’ with server and client classes",
+        "descOne": "Led team of 3 to develop a user friendly ‘FileZilla my mother could use&rsquo; with server and client classes",
         "deploy": "",
         "descTwo": "",
         "repo": "repo: https://github.com/rwhite83/CSharp-F.I.O.N.A"
     },
     {
-        id: 7,
+        id: 8,
         "name": "Game of Life",
         "year": 2018,
         "tech": "Java | OOP | Eclipse",

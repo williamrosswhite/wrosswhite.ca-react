@@ -44,6 +44,9 @@ class Navigation extends React.Component {
                                 <a className="nav-link js-scroll-trigger" href="#page-top" onClick={this.toggleExpanded}>{text.headers.about}</a>
                             </li>
                             <li className="nav-item">
+                                <a className="nav-link js-scroll-trigger" href="#experience" onClick={this.toggleExpanded}>{text.headers.experience}</a>
+                            </li>
+                            <li className="nav-item">
                                 <a className="nav-link js-scroll-trigger" href="#education" onClick={this.toggleExpanded}>{text.headers.education}</a>
                             </li>
                             <li className="nav-item">
