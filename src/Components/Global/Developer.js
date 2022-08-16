@@ -5,6 +5,7 @@ import Skills from "../Developer/Skills"
 import Projects from "../Developer/Projects"
 import Extracurricular from "../Developer/Extras"
 import 'bootstrap/dist/css/bootstrap.min.css';
+import Experience from "../Developer/Experience";
 
 class Developer extends React.Component {
 
@@ -12,6 +13,7 @@ class Developer extends React.Component {
         return (
             <div className="container-fluid p-0" >
                 <About />
+                <Experience />
                 <Education />
                 <Skills />
                 <Projects />
