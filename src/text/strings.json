@@ -51,15 +51,16 @@
         "comms": "Stellar Communication Skills",
         "organized": "Meticulously Organized",
         "collaborator": "Excellent Collaborator",
-        "zero": "I've been very happy with where I landed my first job.  AlayaCare is a Montreal based company who hired me through their Victoria office.  I&rsquo;d basically given up the job search amidst the first pandemic lockdown when they messaged me out of the blue asking if I was still looking for work.  When they offered me a position I fell to the ground and laughed maniacally.",
-        "one": "I have loved and appreciated so much landing a full stack development position out of the gate; I was worried about getting locked into something more specific and letting my other skills atrophe.  It has really been the perfect first job, the company is large enough that I am well supported, but still small enough to be agile and need people to reach and work up and down our stack.  I was also very luck to land a job where I was able to apply my .NET training from my BCIT Technical Programming focus.  I have also been very happy to learn a front end framework really well, but I wish it was something more modern than AngularJS, and I'm looking forward to helping with our migration to Vue.js.  I've been fortunate to work with great people at AlayaCare from whom I&rsquo;ve learned so much.",
-        "two": "Looking towards the future, it would be great to work in a field I have a more active interest in than health care, as gratifying it is to work on something that helps vulnerable people be taken care of.  I love gaming, but I&rsquo;m pretty sure I don&rsquo;t want to work in game development.  Fields I would love to work in include blockchain technology, as a space nut I&rsquo;d also love to work on satellites somehow.  This passion extends to robotics more generally, and post pandemic I plan to participate in a local hobby robotics club.  The dream job would definitely be working on NASA spacecraft.  Also, as a .NET/C# enthusiast it would be amazing to work at the Microsoft's offices here in Vancouver someday.",
+        "zero": "I've been very happy with where I landed my first job.  AlayaCare is a Montreal based company who hired me through their Victoria office.  I'd basically given up the job search amidst the first pandemic lockdown when they messaged me out of the blue asking if I was still looking for work.  When they offered me a position I fell to the ground and laughed maniacally.",
+        "one": "I have loved and appreciated so much landing a full stack development position out of the gate; I was worried about getting locked into something more specific and letting my other skills atrophe.  It has really been the perfect first job, the company is large enough that I am well supported, but still small enough to be agile and need people to reach and work up and down our stack.  I was also very luck to land a job where I was able to apply my .NET training from my BCIT Technical Programming focus.  I have also been very happy to learn a front end framework really well, but I wish it was something more modern than AngularJS, and I'm looking forward to helping with our migration to Vue.js.  I've been fortunate to work with great people at AlayaCare from whom I've learned so much.",
+        "two": "Looking towards the future, it would be great to work in a field I have a more active interest in than health care, as gratifying it is to work on something that helps vulnerable people be taken care of.  I love gaming, but I'm pretty sure I don't want to work in game development.  Fields I would love to work in include blockchain technology, as a space nut I'd also love to work on satellites somehow.  This passion extends to robotics more generally, and post pandemic I plan to participate in a local hobby robotics club.  The dream job would definitely be working on NASA spacecraft.  Also, as a .NET/C# enthusiast it would be amazing to work at the Microsoft's offices here in Vancouver someday.",
         "three": "If you are a prospective employer checking me out, greetings! Feel free to look around! Although you've probably seen them already, please see below my cover letter and resume.",
         "languages": {
-            "languages": "C# / Typescript / Javascript / Yaml / Java",
+            "languages": "C# / Typescript / Javascript / Java",
+            "markup": "HTML / CSS / Yaml",
             "environments": ".NET Framework / NodeJS",
             "database": "SQL / Entity Framework",
-            "framework": "AngularJS / React / Vue",
+            "framework": "AngularJS / React / Vue / Bootstrap",
             "version": "GitHub",
             "services": "Docker / Azure" 
         }
@@ -104,7 +105,7 @@
             "name": "F.I.O.N.A. (File and Information Online Network Access",
             "year": 2020,
             "tech": "C# | Visual Studio | SQL Server",
-            "one": "Led team of 3 to develop a user friendly ‘FileZilla my mother could use&rsquo; with server and client classes",
+            "one": "Led team of 3 to develop a user friendly 'FileZilla my mother could use' with server and client classes",
             "two": "repo: https://github.com/rwhite83/CSharp-F.I.O.N.A"
         },
         "life": {

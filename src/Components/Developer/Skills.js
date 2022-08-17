@@ -22,6 +22,9 @@ class Skills extends React.Component {
                                 {text.skills.languages.languages}</li>
                             <li>
                                 <i className="fa-li fa fa-check"></i>
+                                {text.skills.languages.markup}</li>
+                            <li>
+                                <i className="fa-li fa fa-check"></i>
                                 {text.skills.languages.environments}</li>
                             <li>
                                 <i className="fa-li fa fa-check"></i>

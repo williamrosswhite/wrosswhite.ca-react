@@ -10,8 +10,8 @@ function EducationContent(props) {
                 <div className="subheading mb-3">{props.data.tech}</div>
                 <p>{props.data.descOne}</p>
                 <p>{props.data.descTwo}</p>
-                <p>{props.data.deploy}</p>
-                <p>{props.data.repo}</p>
+                <p>Deployment: {props.data.deploy_excuse}<a href={props.data.deploy}>{props.data.deploy_name}</a></p>
+                <p>Repository: {props.data.repo_excuse}<a href={props.data.repo}>{props.data.repo_name}</a></p>
             </div>
             <div className="resume-date text-md-right">
                 <span className="text-primary">{props.data.year}</span>

@@ -2,32 +2,44 @@ const projectData = [
     {
         id: 0,
         "name": "wrosswhite.ca",
-        "year": 2020 - Present,
+        "year": "2020 - Present",
         "tech": "React | Bootstrap | React Bootstrap | Javascript | HTML5 | CSS",
         "descOne": "The website you are currenty enjoying!  My previous website, seen here (link to old site) was a good demo of what I could do after term 3, but it was really just to replace my squarespace website.",
         "descTwo": "This is now my online portfolio, and I wanted to work with React to learn.  I really like react!  After working with Pug Interpolation, rendering components from an array of data is very satisfying.",
-        "deploy": "deployment: https://wrosswhite.ca",
-        "repo": "repo: https://github.com/rwhite83/wrosswhite-react"
+        "deploy_name": "wrosswhite.ca",
+        "deploy": "https://wrosswhite.ca",
+        "deploy_excuse": "",
+        "repo_name": "wrosswhite.ca-react",
+        "repo": "https://github.com/williamrosswhite/wrosswhite.ca-react",
+        "repo_excuse": ""
     },
     {
         id: 1,
         "name": "New Horizon Mission",
-        "year": 2020 - Present,
+        "year": "2020 - Present",
         "tech": "HTML | JavaScript | Firebase | CSS | Bootstrap",
         "descOne": "This is just the site I created as my writing portfolio and general non professional landing page for myself.  The technology is not particularly modern, but I actively maintain it and am pleased with the retro aesthetic of it.",
-        "deploy": "https://newhorizonmission.ca/",
         "descTwo": "",
-        "repo": "repo: https://github.com/williamrosswhite/newhorizonmission-html"
+        "deploy_name": "newhorizonmission.ca",
+        "deploy": "https://newhorizonmission.ca/",
+        "deploy_excuse": "",
+        "repo_name": "newhorizonmission-html",
+        "repo": "https://github.com/williamrosswhite/newhorizonmission-html",
+        "repo_excuse": ""
     },
     {
         id: 2,
         "name": "File Renamer 9000",
-        "year": 2020 - Present,
+        "year": "2020 - Present",
         "tech": "C# | .NET Framework | Windows Forms",
         "descOne": "A utility project I've worked on for my own purposes, mostly renaming image files the way I like them, but I keep adding functionality to it as I find myself wishing it did more.",
         "descTwo": "",
-        "deploy": "deployment: https://github.com/williamrosswhite/fileRenamer9000",
-        "repo": ""
+        "deploy_name": "",
+        "deploy": "",
+        "deploy_excuse": "Not a Deployable Project",
+        "repo_name": "File Renamer 9000",
+        "repo": "https://github.com/williamrosswhite/fileRenamer9000",
+        "repo_excuse": ""
     },
     {
         id: 3,
@@ -36,8 +48,12 @@ const projectData = [
         "tech": "MVC | Node.js | JavaScript | MySQL | Pug | HTML5 | CSS",
         "descOne": "Over 20 hours I built a full MVC Node.js project to automate convention attendee tracking and analytic",
         "descTwo": "",
-        "deploy": "deployment: https://qds-team5.herokuapp.com/",
-        "repo": "repo: https://github.com/rwhite83/qds20-team5"
+        "deploy_name": "qds-team5.herokuapp.com",
+        "deploy": "https://qds-team5.herokuapp.com/",
+        "deploy_excuse": "",
+        "repo_name": "qds20-team5",
+        "repo": "https://github.com/rwhite83/qds20-team5",
+        "repo_excuse": ""
     },
     {
         id: 4,
@@ -46,8 +62,12 @@ const projectData = [
         "tech": "MVC | Node.js | JavaScript | MySQL | Pug | HTML5 | CSS",
         "descOne": "As a student I wanted something to help organize work priority based on when things are due, so I built it!",
         "descTwo": "",
-        "deploy": "deployment: www.finalcountdown.xyz",
-        "repo": "repo: https://github.com/rwhite83/final-countdown"
+        "deploy_name": "finalcountdown.xyz",
+        "deploy": "https://finalcountdown.xyz",
+        "deploy_excuse": "",
+        "repo_name": "final-countdown",
+        "repo": "https://github.com/rwhite83/final-countdown",
+        "repo_excuse": ""
     },
     {
         id: 5,
@@ -56,8 +76,12 @@ const projectData = [
         "tech": "C# | Unity | PUN | Visual Studio | ASP.NET | Node.js | JavaScript",
         "descOne": "Project Lead on a 24-student game development project.  Organized teams / development sprints and built website",
         "descTwo": "",
-        "deploy": "website deployment: http://floral-trauma-mmst.herokuapp.com/",
-        "repo": ""
+        "deploy_name": "floral-trauma-mmst.herokuapp.com",
+        "deploy": "http://floral-trauma-mmst.herokuapp.com/",
+        "deploy_excuse": "",
+        "repo_name": "",
+        "repo": "",
+        "repo_excuse": "Not a Personal Repository",
     },
     {
         id: 6,
@@ -66,18 +90,26 @@ const projectData = [
         "tech": "Firebase | JavaScript | NoSQL | HTML5 | CSS",
         "descOne": "Industry project involving registering pets left behind in disaster zones so emergency responders can rescue them",
         "descTwo": "",
-        "deploy": "deployment: https://disaster-pets.firebaseapp.com/",
-        "repo": ""
+        "deploy_name": "disaster-pets.firebaseapp",
+        "deploy": "https://disaster-pets.firebaseapp.com/",
+        "deploy_excuse": "",
+        "repo_name": "",
+        "repo": "",
+        "repo_excuse": "Not a Personal Repository"
     },
     {
         id: 7,
         "name": "F.I.O.N.A. (File and Information Online Network Access)",
         "year": 2019,
         "tech": "C# | Visual Studio | SQL Server",
-        "descOne": "Led team of 3 to develop a user friendly ‘FileZilla my mother could use&rsquo; with server and client classes",
-        "deploy": "",
+        "descOne": "Led team of 3 to develop a user friendly 'FileZilla my mother could use' with server and client classes",
         "descTwo": "",
-        "repo": "repo: https://github.com/rwhite83/CSharp-F.I.O.N.A"
+        "deploy": "",
+        "deploy_name": "",
+        "deploy_excuse": "Not a Deployable Project",
+        "repo_name": "CSharp-F.I.O.N.A.",
+        "repo": "https://github.com/rwhite83/CSharp-F.I.O.N.A.",
+        "repo_excuse": ""
     },
     {
         id: 8,
@@ -86,8 +118,12 @@ const projectData = [
         "tech": "Java | OOP | Eclipse",
         "descOne": "Java OOP Project to simulate carnivore/omnivore/herbivore/plant interaction ",
         "descTwo": "",
+        "deploy_name": "",
         "deploy": "",
-        "repo": "https://github.com/rwhite83/Java-Game-of-Life"
+        "deploy_excuse": "Not a Deployable Project",
+        "repo_name": "Java-Game-of-Life",
+        "repo": "https://github.com/rwhite83/Java-Game-of-Life",
+        "repo_excuse": ""
     }
 ]
 
