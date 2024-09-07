@@ -13,14 +13,14 @@
         "social": "Social"
     },
     "about": {
-        "zero": "Welcome to the online home of W. Ross White. I am a graduate of the Computer Systems Technology (CST) program Technical Programming option at the British Columbia Institute of technology (BCIT) in Burnaby, BC.  Today, I work at AlayaCare, a health care Software As A Service company focused on developing management systems for residential care facilities.  We are driven to enable the care we want our loved ones to receive in the place they call home.  Most recently I have been leading development on a feature which stops billing once a resident's fee cap limits have been reached.",
-        "one": "The more development experience I get, the more I realize how much I still have to learn, but I welcome the challenge.  The more tools I add to my toolbox, the more I can do!  At AlayaCare I work with C# and AngularJS, and I have found that I really enjoy full stack web development, and look forward to learning new technologies as I progress in my career.",
+        "zero": "Welcome to the online home of W. Ross White. I am a graduate of the Computer Systems Technology (CST) program Technical Programming option at the British Columbia Institute of technology (BCIT) in Burnaby, BC.  Today I work at Quartech, a contract based software development company based out of Burnaby, BC.  At Quartech I have the opportunity to work on a variety of projects including a platform to support Canadian veterans in finding employment after retiring from the military, a BC emergency response platform for people facing evacuation, as well as a Cannabis retailer verification platform for LCRB.",
+        "one": "Being in the field for four years now I've come a long way, but the more development experience I get, the more I realize how much I still have to learn, but I welcome the challenge!  The more tools I add to my toolbox, the more I can do!  At Quartech I work primarily in .NET with C# and an Angular front end, but I also have experience in both React and Vue.js.  I have found that I truly enjoy full stack development, and enjoy being able to work up and down the stack from database, backend APIs, to front end UI, to working with deployment pipelines, and look forward to the opportunity to learn new technologies as I progress in my career.",
         "two": "Thank you for visiting, I encourage you to poke around and check back again soon!",
         "first": "Ross",
         "last": "White",
-        "city": "New Westminster, BC",
+        "city": "Burnaby, BC",
         "phone": "(604) 404-0002",
-        "email": "wrosswhite@gmail.com"
+        "email": "williamrosswhite@gmail.com"
     },
     "education": [
         {
@@ -53,12 +53,12 @@
         "collaborator": "Excellent Collaborator",
         "zero": "I've been very happy with where I landed my first job.  AlayaCare is a Montreal based company who hired me through their Victoria office.  I'd basically given up the job search amidst the first pandemic lockdown when they messaged me out of the blue asking if I was still looking for work.  When they offered me a position I fell to the ground and laughed maniacally.",
         "one": "I have loved and appreciated so much landing a full stack development position out of the gate; I was worried about getting locked into something more specific and letting my other skills atrophe.  It has really been the perfect first job, the company is large enough that I am well supported, but still small enough to be agile and need people to reach and work up and down our stack.  I was also very luck to land a job where I was able to apply my .NET training from my BCIT Technical Programming focus.  I have also been very happy to learn a front end framework really well, but I wish it was something more modern than AngularJS, and I'm looking forward to helping with our migration to Vue.js.  I've been fortunate to work with great people at AlayaCare from whom I've learned so much.",
-        "two": "Looking towards the future, it would be great to work in a field I have a more active interest in than health care, as gratifying it is to work on something that helps vulnerable people be taken care of.  I love gaming, but I'm pretty sure I don't want to work in game development.  Fields I would love to work in include blockchain technology, as a space nut I'd also love to work on satellites somehow.  This passion extends to robotics more generally, and post pandemic I plan to participate in a local hobby robotics club.  The dream job would definitely be working on NASA spacecraft.  Also, as a .NET/C# enthusiast it would be amazing to work at the Microsoft's offices here in Vancouver someday.",
+        "two": "Looking towards the future, it would be great to work in a field I have a more active interest in than health care, as gratifying it is to work on something that helps vulnerable people be taken care of.  I love gaming, but I'm pretty sure I don't want to work in game development.  Fields I would love to work in include drone shows, smart home systems, blockchain technology, and as a space nut I'd also love to work on satellites somehow.  This passion extends to robotics more generally, and would love to find my way into a field where my software manipulates physical objects in the real world.  The dream job would definitely be working on NASA spacecraft.  Also, as a .NET/C# enthusiast it would be amazing to work at the Microsoft's offices here in Vancouver someday.",
         "three": "If you are a prospective employer checking me out, greetings! Feel free to look around! Although you've probably seen them already, please see below my cover letter and resume.",
         "languages": {
             "languages": "C# / Typescript / Javascript / Java",
             "markup": "HTML / CSS / Yaml",
-            "environments": ".NET Framework / NodeJS / RESTful API",
+            "environments": ".NET Framework / NodeJS",
             "database": "SQL / Entity Framework",
             "framework": "AngularJS / React / Vue / Bootstrap",
             "version": "GitHub",
